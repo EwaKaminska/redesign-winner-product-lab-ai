@@ -41,9 +41,9 @@ function Section({ title, children }) {
 
 function noteSizeClass(note) {
   // Font size follows note length and screen width, so the note fits the panel.
-  if (note.length <= 200) return 'text-[28px] leading-9 sm:text-[40px] sm:leading-12'
-  if (note.length <= 700) return 'text-[clamp(20px,2.3vw,36px)] leading-[1.25]'
-  return 'text-[clamp(16px,1.5vw,24px)] leading-[1.4]'
+  if (note.length <= 200) return 'text-[56px] leading-9 sm:text-[80px] sm:leading-12'
+  if (note.length <= 700) return 'text-[clamp(40px,4.6vw,72px)] leading-[1.25]'
+  return 'text-[clamp(32px,3vw,48px)] leading-[1.4]'
 }
 
 /** The image. With onClick it is a button that flips to the note. */
@@ -106,7 +106,7 @@ function NoteView({ note, onClick, label }) {
 function NotFound() {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center gap-4 p-6 text-center">
-      <p className="text-[32px] leading-10 font-medium tracking-[-0.64px]">Not found</p>
+      <p className="text-[64px] leading-10 font-medium tracking-[-0.64px]">Not found</p>
       <p className="text-sm text-ink-muted">This inspiration does not exist or is not yours.</p>
       <Button asChild>
         <Link to="/">Back to board</Link>

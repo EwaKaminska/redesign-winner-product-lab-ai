@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { cn } from '@/lib/utils'
 
-const FONT = { sm: 'text-[24px]', default: 'text-[32px]', lg: 'text-[40px]' }
+const FONT = { sm: 'text-[48px]', default: 'text-[64px]', lg: 'text-[80px]' }
 
 /**
  * shadcn Avatar with the Figma look: black circle, photo on top.
