@@ -79,7 +79,7 @@ export function AccountPage() {
   return (
     <main className="flex min-h-svh items-center justify-center px-4 py-12 sm:px-6">
       <form onSubmit={handleSubmit} className="flex w-full max-w-[472px] flex-col gap-12">
-        <h1 className="text-[32px] leading-10 font-medium tracking-[-0.64px] sm:text-[40px] sm:leading-12 sm:tracking-[-0.8px]">
+        <h1 className="text-[64px] leading-10 font-medium tracking-[-0.64px] sm:text-[80px] sm:leading-12 sm:tracking-[-0.8px]">
           Account settings
         </h1>
 
@@ -96,7 +96,7 @@ export function AccountPage() {
               <UserAvatar
                 url={avatarPreview ?? profile?.avatarUrl}
                 name={name || user?.email}
-                className="size-20 text-[80px]"
+                className="size-20 text-[160px]"
               />
               <span className="absolute inset-0 flex items-center justify-center rounded-full bg-black/50 text-xs font-medium text-white opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
                 Change

@@ -27,7 +27,7 @@ export function EditInspirationPage() {
   if (item === null) {
     return (
       <div className="flex min-h-svh flex-col items-center justify-center gap-4 p-6">
-        <p className="text-[32px] leading-10 font-medium">Not found</p>
+        <p className="text-[64px] leading-10 font-medium">Not found</p>
         <Button asChild>
           <Link to="/">Back to board</Link>
         </Button>

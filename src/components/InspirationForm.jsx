@@ -215,7 +215,7 @@ export function InspirationForm({
 
   return (
     <form onSubmit={handleSubmit} className="flex w-full max-w-[472px] flex-col gap-12">
-      <h1 className="text-[32px] leading-10 font-medium tracking-[-0.64px] sm:text-[40px] sm:leading-12 sm:tracking-[-0.8px]">
+      <h1 className="text-[64px] leading-10 font-medium tracking-[-0.64px] sm:text-[80px] sm:leading-12 sm:tracking-[-0.8px]">
         {title}
       </h1>
 
